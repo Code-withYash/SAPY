@@ -68,23 +68,6 @@ body {
   backdrop-filter: blur(6px);
 }
 
-/* pre-loader styling  */
-.site_loader {
-  position: fixed;
-  top: 100px;
-  left: 0;
-  background-color: #fff;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  z-index: 9999;
-  justify-content: center;
-}
-
-.site_loader > img {
-  width: 150px;
-  height: 150px;
-}
 
 /* navbar styles  */
 header {
@@ -120,9 +103,10 @@ header > nav > .navbar_logo>p{
   
 }
 header > nav > .navbar_logo > a > img {
-  width: 60px;
+  width: 30px;
   height: 30px;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 header > nav > .middle_nav_links {

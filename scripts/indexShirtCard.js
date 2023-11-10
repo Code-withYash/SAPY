@@ -8,6 +8,7 @@ let shirt =[
     },
     {
         image:"https://m.media-amazon.com/images/I/81-JAkrN1sL._AC_UL640_QL65_.jpg",
+        name:"MonteCarlo",
         price:"1799",
         offerPrice:"593",
    
@@ -21,6 +22,7 @@ let shirt =[
        },
        {
         image:"https://m.media-amazon.com/images/I/713elmsvGxL._AC_UL640_QL65_.jpg",
+        name:"US Polo",
         price:"1499",
         offerPrice:"519",
    
@@ -33,18 +35,21 @@ let shirt =[
 shirt.map((el)=>{
     let card = document.createElement("div");
     card.setAttribute("id","card");
+    card.style.height = "55vh";
+    card.addEventListener("click",function(){
+        window.location.hreaf = "../catagory.html"
+    })
     
     let imgdiv = document.createElement("div");
     imgdiv.setAttribute("id","imgdiv");
-    imgdiv.style.border = "2px solid red";
-    imgdiv.style.height = "70%";
+    imgdiv.style.height = "80%";
 
     
     let imageEl = document.createElement("img");
     imageEl.setAttribute("id","imageEl");
     imageEl.style.width = "100%";
     imageEl.style.margin = "auto";
-    imageEl.style.height = "60%";
+    imageEl.style.height = "100%";
     imageEl.src = el.image;
     
     let compDiv = document.createElement("div");
@@ -62,6 +67,7 @@ shirt.map((el)=>{
 
     let div1= document.createElement("div");
     div1.setAttribute("id","div1");
+    div1.style.marginTop = "10px";
 
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";

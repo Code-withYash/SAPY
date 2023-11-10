@@ -57,6 +57,9 @@ let smartphone=[
 smartphone.map((el)=>{
     let card = document.createElement("div");
     card.setAttribute("id","card");
+    card.addEventListener("click",function(){
+        window.location.hreaf = "../catagory.html"
+    })
     
     let imgdiv = document.createElement("div");
     imgdiv.setAttribute("id","imgdiv");
@@ -80,6 +83,7 @@ smartphone.map((el)=>{
 
     let div1= document.createElement("div");
     div1.setAttribute("id","div1");
+    div1.style.marginTop = "10px";
 
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
