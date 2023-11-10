@@ -3,7 +3,7 @@ const footerc =() =>{
     <div id="footer">
         <div id="container1">
             <div id="c1d1">
-                <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_150,ar_3.87,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/brand-logo/vman-and-white-cult-text.png" alt="" id="flogo"><br>
+                <img src="./images/logo.png" alt="" id="flogo"><br>
                 <p class="c1d1p">At cult.fit,we make a group workouts fun,daily food healthy & tasty,mental fitness easy with yoga & menditation, Medical & lifestyle care hasslegree.#BeBetterEveryDay</p>
             </div>
             <div id="c1d2">

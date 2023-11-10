@@ -7,7 +7,7 @@
     <link
       data-rh="true"
       rel="icon"
-      href="https://static.cure.fit/assets/images/favicon-modified.png"
+      href="./images/logo.png"
       sizes="16x16"
       type="image/png"
     />
@@ -18,29 +18,31 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Noto+Sans+Devanagari:wght@800&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+
+
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/nav.css">
-    <link rel="stylesheet" href="./styles/page3.css">
-    <link rel="stylesheet" href="./styles/page4.css">
-    <link rel="stylesheet" href="./styles/page5.css">
-    <title>
-      Get Fitness Workouts, Gyms, Health Care, &amp; Healthy Food in India by
-      Cult.fit
-    </title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>SAPY</title>
   </head>
   <body>
     <!-- navbar section  -->
     <header id="navbar"></header>
-    <div id="overlay"></div>
+    <!-- <div id="overlay"></div> -->
+
+    <div id="banner">
+      <video id="vdo" autoplay muted loop src="./vdo/bannervdo.mp4"></video>
+    </div>
+
+    <h1>SmartPhone</h1>
+    <div id="shirt"></div>
+    <div id="smartPhoneCard"></div>
 
 
-
-
-
-
-
-    
 
     <!-- footer section  -->
     <div id="footer"></div>
@@ -53,6 +55,7 @@
     <!-- scripts -->
     <script type="module" src="./script/navFunction.js"></script>
     <script type="module" src="./script/index.js"></script>
-    <script src="./gsap/gsap.js"></script>
+    <script src="./scripts/indexSmartPhoneCard.js"></script>
+    <script src="./scripts/indexShirtCard.js"></script>
   </body>
 </html>

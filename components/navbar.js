@@ -12,15 +12,15 @@ const navbar = () => {
   <div id="mobile_nav_links">
     <div>
     <img
-      src="https://static.cure.fit/assets/images/curefit-v-man-white.svg"
+      src="./images/logo.png"
       alt="logo"
     />
     <p class="close_mobile_nav">X</p>
     </div>
-      <div><a href="../index.html">HOME</a></div>
-      <div><a href="../catagory.html">CATAGORIES</a></div>
-      <div><a href="../bestsellers.html">BEST SELLERS</a></div>
-      <div><a href="../about.html">ABOUT</a></div>
+      <div><a href="./index.html">HOME</a></div>
+      <div><a href="./catagory.html">CATAGORIES</a></div>
+      <div><a href="./bestsellers.html">BEST SELLERS</a></div>
+      <div><a href="./about.html">ABOUT</a></div>
   
   
       <div><p id="mobile_signin">Sign in</p></div>
@@ -30,15 +30,15 @@ const navbar = () => {
     <nav>
       <div class="navbar_logo">
         <a href="./"><img
-          src="../images/logo.png"
+          src="./images/logo.png"
           alt="logo" 
         /> </a>
         <p>SAPY</p>
       </div>
       <div class="middle_nav_links">
-      <div><a href="../index.html">HOME</a></div>
-      <div><a href="../catagory.html">CATAGORIES</a></div>
-      <div><a href="../bestsellers.html">BEST SELLERS</a></div>
+      <div><a href="./index.html">HOME</a></div>
+      <div><a href="./catagory.html">CATAGORIES</a></div>
+      <div><a href="./bestsellers.html">BEST SELLERS</a></div>
       <div><a href="../about.html">ABOUT</a></div>
       </div>
       <div class="right_nav_links">

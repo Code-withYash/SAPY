@@ -5,7 +5,7 @@
 //   };
   
   // footer
-  import footer from "../components/footer.js";
+  import footer from "../components/footercommon.js";
   document.querySelector(`#footer`).innerHTML = footer();
   
   // video mute and unmute

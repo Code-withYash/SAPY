@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap");
 
+
+
 /* fonts taken from cult-fit official  */
 @font-face {
   font-family: "BrandonTextWeb-Medium";
@@ -88,7 +90,7 @@ body {
 header {
   width: 100%;
   height: 60px;
-  background-color: #15171c;
+  background-color: rgba(0, 0, 0, 0.168);
   position: fixed;
   top: 0;
   z-index: 999999;
@@ -101,14 +103,24 @@ header > nav {
   width: 96%;
   height: 100%;
   margin: auto;
-  color: #fff;
-  z-index: 999999;
+  color: #3a3a3a;
   align-items: center;
   justify-content: space-between;
 }
 
+header > nav > .navbar_logo {
+  display: flex;
+  flex-direction: row;
+  
+}
+header > nav > .navbar_logo>p{
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  
+}
 header > nav > .navbar_logo > a > img {
-  width: 120px;
+  width: 60px;
   height: 30px;
   cursor: pointer;
 }
@@ -120,12 +132,13 @@ header > nav > .middle_nav_links {
 }
 
 header > nav > .middle_nav_links > div > a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding: 0px 30px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
+  font-size: 25px;
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: Bebas Neue;
   opacity: 70%;
   transition: opacity 0.25s ease;
 }
