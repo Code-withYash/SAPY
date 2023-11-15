@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/slider.css">
     <title>SAPY</title>
   </head>
   <body>
@@ -38,16 +39,184 @@
       <video id="vdo" autoplay muted loop src="./vdo/bannervdo.mp4"></video>
     </div>
 
+    
+
     <h1 id="headText">New Arrivals</h1>
     <div id="shirt"></div>
-
-    <div id="phoneVDOdiv">
-      <video id="Phvdo" autoplay loop muted src="./vdo/indexPhone.mp4"></video>
-    </div>
 
     <h1 id="headText">Best Deals</h1>
     <div id="smartPhoneCard"></div>
 
+    <section id="slider">
+        <div class="prev" onclick="goPrev()"></div>
+        <div class="next" onclick="goNext()"></div>
+        <div class="slider-container">
+             <div class="slider-image">
+                  <img src="https://sslimages.shoppersstop.com/sys-master/root/h8d/h09/31146587160606/Watches-web_121023.jpg"
+                       alt="">
+             </div>
+             <div class="slider-image">
+                  <img src="https://sslimages.shoppersstop.com/sys-master/root/heb/h1d/31146587750430/Men-web_161023.jpg"
+                       alt="">
+             </div>
+             <div class="slider-image">
+                  <img src="https://sslimages.shoppersstop.com/sys-master/root/h24/h73/31146588143646/Western-wear-web_161023.jpg"
+                       alt="">
+             </div>
+             <div class="slider-image">
+                  <img src="https://sslimages.shoppersstop.com/sys-master/root/hf6/h9e/31167300501534/Footwear-web_AW23.jpg"
+                       alt="">
+             </div>
+             <div class="slider-image">
+                  <img src="https://cdn.shopclues.com/images/banners/2023/Nov/08/HB2_Refurb_Web_Esha_7thNov23.jpg"
+                       alt="">
+             </div>
+        </div>
+   </section>
+
+    <div id="phoneVDOdiv">
+      <video id="Phvdo" autoplay loop muted src="./vdo/applevdo.mp4"></video>
+    </div>
+
+    
+
+
+
+
+    <!-- Customer Reviews -->
+
+    <section id="testimonials">
+      <!--heading--->
+      <div class="testimonial-heading">
+          <h4 style="font-family: Bebas Neue; font-size: 80px;">Customer Review</h4>
+      </div>
+      <!--testimonials-box-container------>
+      <div class="testimonial-box-container">
+          <!--BOX-1-------------->
+          <div class="testimonial-box">
+              <!--top------------------------->
+              <div class="box-top">
+                  <!--profile----->
+                  <div class="profile">
+                      <!--img---->
+                      <div class="profile-img">
+                          <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/101/malecostume-64.png" />
+                      </div>
+                      <!--name-and-username-->
+                      <div class="name-user">
+                          <strong>Liam mendes</strong>
+                          <span>@liammendes</span>
+                      </div>
+                  </div>
+                  <!--reviews------>
+                  <div class="reviews">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i><!--Empty star-->
+                  </div>
+              </div>
+              <!--Comments---------------------------------------->
+              <div class="client-comment">
+                  <p>One of the most noticeable changes to the iPhone 15 is its new design. The phone now has rounded edges, which makes it feel more comfortable in the hand. It also has a new camera bump that is less pronounced than the one on the iPhone 14..</p>
+              </div>
+          </div>
+          <!--BOX-2-------------->
+          <div class="testimonial-box">
+              <!--top------------------------->
+              <div class="box-top">
+                  <!--profile----->
+                  <div class="profile">
+                      <!--img---->
+                      <div class="profile-img">
+                          <img src="https://cdn2.iconfinder.com/data/icons/avatars-60/5985/7-Assistant-64.png" />
+                      </div>
+                      <!--name-and-username-->
+                      <div class="name-user">
+                          <strong>Noah Wood</strong>
+                          <span>@noahwood</span>
+                      </div>
+                  </div>
+                  <!--reviews------>
+                  <div class="reviews">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i><!--Empty star-->
+                  </div>
+              </div>
+              <!--Comments---------------------------------------->
+              <div class="client-comment">
+                  <p>This is just a show off and honestly speaking I have purchased for this reason only. Although I use android Xiaomi Device for good performance.</p>
+              </div>
+          </div>
+          <!--BOX-3-------------->
+          <div class="testimonial-box">
+              <!--top------------------------->
+              <div class="box-top">
+                  <!--profile----->
+                  <div class="profile">
+                      <!--img---->
+                      <div class="profile-img">
+                          <img src="https://cdn2.iconfinder.com/data/icons/avatars-60/5985/13-Captain-64.png" />
+                      </div>
+                      <!--name-and-username-->
+                      <div class="name-user">
+                          <strong>Oliver Queen</strong>
+                          <span>@oliverqueen</span>
+                      </div>
+                  </div>
+                  <!--reviews------>
+                  <div class="reviews">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i><!--Empty star-->
+                  </div>
+              </div>
+              <!--Comments---------------------------------------->
+              <div class="client-comment">
+                  <p>Battery : worst than I expect . Many says it is iOS 17 behind poor battery life . Hardly 3-4 he if you travelling and your network changes frequently .. worst than my android devices .
+                    Performance : no doubt in performance , it's the best in the industry ,
+                    Camera : undoubtably very good in camera dipartment but I hardly take photos 😁
+                    iOS : verry smooth and many good things are missing . Call recording , call pick up haptic , smart dial and many more little but verry important feature ..</p>
+              </div>
+          </div>
+          <!--BOX-4-------------->
+          <div class="testimonial-box">
+              <!--top------------------------->
+              <div class="box-top">
+                  <!--profile----->
+                  <div class="profile">
+                      <!--img---->
+                      <div class="profile-img">
+                          <img src="https://cdn2.iconfinder.com/data/icons/avatars-60/5985/15-Actress-64.png" />
+                      </div>
+                      <!--name-and-username-->
+                      <div class="name-user">
+                          <strong>Barry Allen</strong>
+                          <span>@barryallen</span>
+                      </div>
+                  </div>
+                  <!--reviews------>
+                  <div class="reviews">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i><!--Empty star-->
+                  </div>
+              </div>
+              <!--Comments---------------------------------------->
+              <div class="client-comment">
+                  <p>Very good and faster delivery</p>
+              </div>
+          </div>
+      </div>
+    </section>
 
 
     <!-- footer section  -->
@@ -61,6 +230,7 @@
     <!-- scripts -->
     <script type="module" src="./script/navFunction.js"></script>
     <script type="module" src="./script/index.js"></script>
+    <script src="./scripts/slider.js"></script>
     <script src="./scripts/indexSmartPhoneCard.js"></script>
     <script src="./scripts/indexShirtCard.js"></script>
   </body>

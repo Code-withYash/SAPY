@@ -4,17 +4,17 @@ const footerc =() =>{
         <div id="container1">
             <div id="c1d1">
                 <img src="./images/logo.png" alt="" id="flogo"><br>
-                <p class="c1d1p">At cult.fit,we make a group workouts fun,daily food healthy & tasty,mental fitness easy with yoga & menditation, Medical & lifestyle care hasslegree.#BeBetterEveryDay</p>
+                <h1 class="c1d1p">SAPY</h1>
             </div>
             <div id="c1d2">
                 <div>
-                    <a href="" class="footera">cult.fit for business</a><br><br><br><br>
-                    <a href="" class="footera">cult.fit franchies</a><br><br><br><br>
+                    <a href="" class="footera">Sapy for business</a><br><br><br><br>
+                    <a href="" class="footera">Sapy franchies</a><br><br><br><br>
                     <a href="" class="footera">corporate partnerships</a><br><br><br><br>
-                    <a href="" class="footera">cult pass network</a>
+                    <a href="" class="footera">Sapy Network</a>
                 </div>
                 <div>
-                    <a href="" class="footera">partner.fit</a><br><br><br><br>
+                    <a href="" class="footera">partner</a><br><br><br><br>
                     <a href="" class="footera">blogs</a><br><br><br><br>
                     <a href="" class="footera">security</a><br><br><br><br>
                     <a href="" class="footera">careers</a>

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Belleza');
+
+
+
+#hoverdiv {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0rem;
+}
+
+#hoverdiv>ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+  #hoverdiv>ul>a>li {
+    font-family: "Poppins";
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    color: rgb(123, 122, 122);
+    margin-bottom: 0px;
+    z-index: 1;
+  }
+  #hoverdiv>ul>a>li:hover {
+    color: rgb(24, 23, 23);
+    font-size: 85px;
+    z-index: 1;
+  }
+
+
+#hoverdiv>img {
+  position: absolute;
+  width: 10%;
+  object-fit: contain;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  z-index: 20;
+}

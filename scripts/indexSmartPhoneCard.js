@@ -57,9 +57,6 @@ let smartphone=[
 smartphone.map((el)=>{
     let card = document.createElement("div");
     card.setAttribute("id","card");
-    card.addEventListener("click",function(){
-        window.location.hreaf = "../catagory.html"
-    })
     
     let imgdiv = document.createElement("div");
     imgdiv.setAttribute("id","imgdiv");
@@ -112,4 +109,5 @@ smartphone.map((el)=>{
 
     card.append(imgdiv,compDiv);
     document.querySelector("#smartPhoneCard").append(card);
-})
+});
+

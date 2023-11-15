@@ -18,8 +18,8 @@ const navbar = () => {
     <p class="close_mobile_nav">X</p>
     </div>
       <div><a href="./index.html">HOME</a></div>
-      <div><a href="./catagory.html">CATAGORIES</a></div>
-      <div><a href="./bestsellers.html">BEST SELLERS</a></div>
+      <div><a href="./category.html">CATEGORIES</a></div>
+      <div><a href="./wishlist.html">WISHLIST</a></div>
       <div><a href="./about.html">ABOUT</a></div>
   
   
@@ -37,9 +37,9 @@ const navbar = () => {
       </div>
       <div class="middle_nav_links">
       <div><a href="./index.html">HOME</a></div>
-      <div><a href="./catagory.html">CATAGORIES</a></div>
-      <div><a href="./bestsellers.html">BEST SELLERS</a></div>
-      <div><a href="../about.html">ABOUT</a></div>
+      <div><a href="./category.html">CATEGORIES</a></div>
+      <div><a href="./wishlist.html">WISHLIST</a></div>
+      <div><a href="./about.html">ABOUT</a></div>
       </div>
       <div class="right_nav_links">
         <div id="login">
@@ -48,16 +48,18 @@ const navbar = () => {
             alt="user"
           />
         </div>
-        <div id="user_logged">
+      <div id="user_logged">
         <p>X</p>
         <h2>Hi, you are already logged in.</h2>
         <button>Log Out</button>
       </div>
         <div id="cart_btn">
-          <img
-            src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg"
-            alt="cart"
-          />
+          <a href="./cart.html">
+            <img
+              src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,q_auto:eco,dpr_2,f_auto,fl_progressive//image/test/cart-dark-theme.svg"
+              alt="cart"
+            />
+          </a>
         </div>
       </div>
     </nav>
