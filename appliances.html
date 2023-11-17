@@ -20,7 +20,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Noto+Sans+Devanagari:wght@800&family=Tangerine:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/care/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.css" />
   <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/banner.css">
   <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/womanTab.css">
 
 </head>
 
@@ -34,8 +36,9 @@
   </div>
 
 
-  <div id="MenMainDiv" style="width: 100%; border: 2px solid red; display: flex; flex-direction: row;">
-    <div class="tab" style="display: flex; flex-direction: column; width: 30%;">
+  <div id="MenMainDiv">
+    <div class="tab">
+      <h1 id="tabHeadingText">List</h1>
       <button class="tablinks" onclick="openTab(event, 'firstTab')" id="defaultOpen">EarBuds</button>
       <button class="tablinks" onclick="openTab(event, 'secondTab')">Camera</button>
       <button class="tablinks" onclick="openTab(event, 'thirdTab')">Fridge</button>
@@ -46,25 +49,32 @@
     </div>
 
     <div id="firstTab" class="tabcontent">
-      <div id="CardDivEarBuds" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">Best EarBuds From Top Brands</h1>
+      <div id="CardDivEarBuds" class="carddivtabcont"></div>
     </div>
     <div id="secondTab" class="tabcontent">
-      <div id="CardDivCamera" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">Best Camera's From Top Brands</h1>
+      <div id="CardDivCamera" class="carddivtabcont"></div>
     </div>
     <div id="thirdTab" class="tabcontent">
-      <div id="CardDivFridge" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">Best Fridge From Top Brands</h1>
+      <div id="CardDivFridge" class="carddivtabcont"></div>
     </div>
     <div id="fourthTab" class="tabcontent">
-      <div id="CardDivKitchen" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">Best Kitchen Items From Top Brands</h1>
+      <div id="CardDivKitchen" class="carddivtabcont"></div>
     </div>
     <div id="fifthTab" class="tabcontent">
-      <div id="CardDivWashingMachine" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">Best Washing Machine From Top Brands</h1>
+      <div id="CardDivWashingMachine" class="carddivtabcont"></div>
     </div>
     <div id="sixthTab" class="tabcontent">
-      <div id="CardDivTelivision" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">Best TV From Top Brands</h1>
+      <div id="CardDivTelivision" class="carddivtabcont"></div>
     </div>
     <div id="seventhTab" class="tabcontent">
-      <div id="CardDivAC" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">Best AC From Top Brands</h1>
+      <div id="CardDivAC" class="carddivtabcont"></div>
     </div>
   </div>
 

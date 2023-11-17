@@ -127,54 +127,48 @@ let CartArray = JSON.parse(localStorage.getItem("CartArray")) || [];
 
 skirt.forEach(function(el){
     let card = document.createElement("div");
-    card.setAttribute("id","skirtCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","skirtUpperDivCard");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
     let image = document.createElement("img");
-    image.setAttribute("id","skirtImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
-    image.style.width = "100%";
-    image.style.overflow = "hidden";
     upperdiv.append(image);
 
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","skirtLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","skirtNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","skirtName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","skirtPriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","skirtPriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","skirtPrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","skirtPriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","skirtOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 
@@ -225,12 +219,6 @@ let saree = [
      image:"https://m.media-amazon.com/images/I/912JFM8XEJL._SY879_.jpg",
      price:"500",
      offerPrice:"350",
-    },
-    {
-     name:"Sidhidata Textile Women's Digital Floral",
-     image:"https://m.media-amazon.com/images/I/71YPRPXQHhL._SX679_.jpg",
-     price:"900",
-     offerPrice:"500",
     },
     {
      name:"SIRIL Women's Floral Print Geoegette Saree",
@@ -330,17 +318,14 @@ let saree = [
 
 saree.forEach(function(el){
     let card = document.createElement("div");
-    card.setAttribute("id","sareeCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","sareeUpperDiv");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
+    
     let image = document.createElement("img");
-    image.setAttribute("id","sareeImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
     image.style.width = "100%";
     image.style.overflow = "hidden";
@@ -349,35 +334,35 @@ saree.forEach(function(el){
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","sareeLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","sareeNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","sareeName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","sareePriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","sareePriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","sareePrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","sareePriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","sareeOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 
@@ -543,58 +528,51 @@ let jeans =[
     }, 
 ]
 
-// let jeansCartArray = JSON.parse(localStorage.getItem("CartArray")) || [];
 
 jeans.forEach(function(el){
     let card = document.createElement("div");
-    card.setAttribute("id","jeansCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","jeansUpperDiv");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
     let image = document.createElement("img");
-    image.setAttribute("id","jeansImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
-    image.style.width = "100%";
-    image.style.overflow = "hidden";
     upperdiv.append(image);
 
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","jeansLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","jeansNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","jeansName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","jeansPriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","jeansPriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","jeansPrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","jeansPriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","jeansOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 

@@ -5,12 +5,18 @@
 #hoverdiv {
   width: 100vw;
   height: 100vh;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 0rem;
+  background-image: url("../images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 80%;
 }
+
+
 
 #hoverdiv>ul {
   list-style: none;
@@ -23,7 +29,7 @@
     position: relative;
     font-size: 80px;
     text-align: center;
-    color: rgb(123, 122, 122);
+    color: rgb(70, 70, 70);
     margin-bottom: 0px;
     z-index: 1;
   }

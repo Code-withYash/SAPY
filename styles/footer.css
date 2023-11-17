@@ -14,6 +14,10 @@
 #c1d1{
     width: 28%;
 }
+#c1d1>img{
+    width: 80%;
+    filter: invert(1);
+}
 #c1d2{
     display: flex;
     justify-content: space-between;

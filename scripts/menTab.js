@@ -1,125 +1,144 @@
 let shirt =[
-    {
-     image:"https://m.media-amazon.com/images/I/719gKQS4doL._AC_UL640_QL65_.jpg",
-     name:"",
-     price:"1799",
-     offerPrice:"569",
+  {
+   image:"https://m.media-amazon.com/images/I/719gKQS4doL._AC_UL640_QL65_.jpg",
+   name:"Monte Carlo",
+   price:"1799",
+   offerPrice:"569",
 
-    },
-    {
-        image:"https://m.media-amazon.com/images/I/71mGhk13xYL._AC_UL640_QL65_.jpg",
-        price:"1499",
-        offerPrice:"499",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/81SynkuTdiL._AC_UL640_QL65_.jpg",
-        price:"1599",
-        offerPrice:"699",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/71wDwvFKrxL._AC_UL640_QL65_.jpg",
-        price:"2099",
-        offerPrice:"399",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/81-JAkrN1sL._AC_UL640_QL65_.jpg",
-        price:"1799",
-        offerPrice:"593",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/713elmsvGxL._AC_UL640_QL65_.jpg",
-        price:"1499",
-        offerPrice:"519",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/71PU6aeNj-L._AC_UL640_QL65_.jpg",
-        price:"2199",
-        offerPrice:"669",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/71rzKMArJZL._AC_UL640_QL65_.jpg",
-        price:"1199",
-        offerPrice:"369",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/81XbXTOcuZL._AC_UL640_QL65_.jpg",
-        price:"1299",
-        offerPrice:"149",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/71qfMZpYoCL._AC_UL640_QL65_.jpg",
-        price:"999",
-        offerPrice:"399",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/81r9ntAzoPL._AC_UL640_QL65_.jpg",
-        price:"1299",
-        offerPrice:"149",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/71K-Sq54cUL._AC_UL640_QL65_.jpg",
-        price:"799",
-        offerPrice:"249",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/816hFhJSnFL._AC_UL640_QL65_.jpg",
-        price:"2198",
-        offerPrice:"498",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/71JFYy6VDUL._AC_UL640_QL65_.jpg",
-        price:"1099",
-        offerPrice:"399",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/71YkSSLzCmL._AC_UL640_QL65_.jpg",
-        price:"1499",
-        offerPrice:"499",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/81MMOYv4fxL._AC_UL640_QL65_.jpg",
-        price:"1199",
-        offerPrice:"299",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/81SJxjDDwuL._AC_UL640_QL65_.jpg",
-        price:"1099",
-        offerPrice:"399",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/71FpLGZsTmL._AC_UL640_QL65_.jpg",
-        price:"1299",
-        offerPrice:"309",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/81D69UzO1QL._AC_UL640_QL65_.jpg",
-        price:"1099",
-        offerPrice:"259",
-   
-       },
-       {
-        image:"https://m.media-amazon.com/images/I/91awjEQ7nVL._AC_UL640_QL65_.jpg",
-        price:"2499",
-        offerPrice:"269",
-   
-       },
+  },
+  {
+      image:"https://m.media-amazon.com/images/I/71mGhk13xYL._AC_UL640_QL65_.jpg",
+      name:"Lymio",
+      price:"1499",
+      offerPrice:"499",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/81SynkuTdiL._AC_UL640_QL65_.jpg",
+      name:"Allen Solly",
+      price:"1599",
+      offerPrice:"699",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/71wDwvFKrxL._AC_UL640_QL65_.jpg",
+      name:"DHRUVI TRENDZ",
+      price:"2099",
+      offerPrice:"399",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/81-JAkrN1sL._AC_UL640_QL65_.jpg",
+      name:"Peter England",
+      price:"1799",
+      offerPrice:"593",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/713elmsvGxL._AC_UL640_QL65_.jpg",
+      name:"INKAST",
+      price:"1499",
+      offerPrice:"519",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/71PU6aeNj-L._AC_UL640_QL65_.jpg",
+      name:"Indo Primo",
+      price:"2199",
+      offerPrice:"669",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/71rzKMArJZL._AC_UL640_QL65_.jpg",
+      name:"Be Active",
+      price:"1199",
+      offerPrice:"369",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/81XbXTOcuZL._AC_UL640_QL65_.jpg",
+      name:"Majestic Man",
+      price:"1299",
+      offerPrice:"149",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/71qfMZpYoCL._AC_UL640_QL65_.jpg",
+      name:"U-TURN",
+      price:"999",
+      offerPrice:"399",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/81r9ntAzoPL._AC_UL640_QL65_.jpg",
+      name:"GLORYBOYZ",
+      price:"1299",
+      offerPrice:"149",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/71K-Sq54cUL._AC_UL640_QL65_.jpg",
+      name:"Van Heusen",
+      price:"799",
+      offerPrice:"249",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/816hFhJSnFL._AC_UL640_QL65_.jpg",
+      name:"Look Mark",
+      price:"2198",
+      offerPrice:"498",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/71JFYy6VDUL._AC_UL640_QL65_.jpg",
+      name:"Van Heusen",
+      price:"1099",
+      offerPrice:"399",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/71YkSSLzCmL._AC_UL640_QL65_.jpg",
+      name:"Leriya Fashion",
+      price:"1499",
+      offerPrice:"499",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/81MMOYv4fxL._AC_UL640_QL65_.jpg",
+      name:"Indo Primo",
+      price:"1199",
+      offerPrice:"299",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/81SJxjDDwuL._AC_UL640_QL65_.jpg",
+      name:"Diverse",
+      price:"1099",
+      offerPrice:"399",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/71FpLGZsTmL._AC_UL640_QL65_.jpg",
+      name:"Symbol",
+      price:"1299",
+      offerPrice:"309",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/81D69UzO1QL._AC_UL640_QL65_.jpg",
+      name:"US Polo",
+      price:"1099",
+      offerPrice:"259",
+ 
+     },
+     {
+      image:"https://m.media-amazon.com/images/I/91awjEQ7nVL._AC_UL640_QL65_.jpg",
+      name:"Dennis Lingo",
+      price:"2499",
+      offerPrice:"269",
+ 
+     },
 ]
 
 
@@ -129,54 +148,54 @@ let CartArray = JSON.parse(localStorage.getItem("CartArray")) || [];
 
 shirt.forEach(function(el){
     let card = document.createElement("div");
-    card.setAttribute("id","shirtCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","shirtUpperDivCard");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
+    // upperdiv.style.height = "350px";
+    // upperdiv.style.width = "90%";
+    // upperdiv.style.display = "flex";
+    // upperdiv.style.border = "2px solid green";
     let image = document.createElement("img");
-    image.setAttribute("id","shirtImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
-    image.style.width = "100%";
-    image.style.overflow = "hidden";
+    // image.style.width = "100%";
+    // image.style.overflow = "hidden";
     upperdiv.append(image);
 
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","shirtLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","shirtNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","shirtName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","shirtPriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","shirtPriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","shirtPrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","shirtPriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","shirtOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 
@@ -357,54 +376,54 @@ let shoes = [
 
 shoes.forEach(function(el){
     let card = document.createElement("div");
-    card.setAttribute("id","shoesCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","shoesUpperDivCard");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
+    // upperdiv.style.height = "350px";
+    // upperdiv.style.width = "90%";
+    // upperdiv.style.display = "flex";
+    // upperdiv.style.border = "2px solid green";
     let image = document.createElement("img");
-    image.setAttribute("id","shoesImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
-    image.style.width = "100%";
-    image.style.overflow = "hidden";
+    // image.style.width = "100%";
+    // image.style.overflow = "hidden";
     upperdiv.append(image);
 
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","shoesLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","shoesNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","shoesName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","shoesPriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","shoesPriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","shoesPrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","shoesPriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","shoesOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 
@@ -504,56 +523,56 @@ let pants =[
 
 
 
-pants.forEach(function(el){
+pants.map(function(el){
     let card = document.createElement("div");
-    card.setAttribute("id","pantsCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","pantsUpperDivCard");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
+    // upperdiv.style.height = "350px";
+    // upperdiv.style.width = "90%";
+    // upperdiv.style.display = "flex";
+    // upperdiv.style.border = "2px solid green";
     let image = document.createElement("img");
-    image.setAttribute("id","pantsImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
-    image.style.width = "100%";
-    image.style.overflow = "hidden";
+    // image.style.width = "100%";
+    // image.style.overflow = "hidden";
     upperdiv.append(image);
 
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","pantsLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","pantsNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","pantsName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","pantsPriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","pantsPriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","pantsPrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","pantsPriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","pantsOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 

@@ -3,8 +3,7 @@ const footerc =() =>{
     <div id="footer">
         <div id="container1">
             <div id="c1d1">
-                <img src="./images/logo.png" alt="" id="flogo"><br>
-                <h1 class="c1d1p">SAPY</h1>
+                <img src="./images/SAPY.png" alt="" id="flogo"><br>
             </div>
             <div id="c1d2">
                 <div>

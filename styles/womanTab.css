@@ -1,0 +1,115 @@
+#WomenMainDiv{
+    width: 100%; 
+    display: flex; 
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 20px 0px 20px;
+}
+#MenMainDiv{
+    width: 100%; 
+    display: flex; 
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0px 20px 0px 20px;
+}
+
+.tab{
+    display: flex; 
+    flex-direction: column; 
+    min-width: 15%;
+}
+
+.tab>button{
+    font-size: 25px;
+    background-color: rgb(54, 53, 53);
+    border: none;
+    color: White;
+    font-family: "Bebas Neue";
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.tab>button:active{
+    transform: scale(0.95);
+}
+
+.tabcontent>.carddivtabcont{
+    display: grid; 
+    grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+}
+
+#tabHeadingText{
+    text-align: center;
+    font-family: Bebas Neue;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+#Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-bottom: 20px;
+}
+
+#Card>#UpperDiv{
+    border-radius: 5px 0px 0px 5px;
+    height: 300px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+#Img{
+    border-radius: 5px 0px 0px 5px;
+    width: 100%;
+}
+
+#NameDiv{
+    text-align: center;
+}
+
+#Name{
+    font-family: "Bebas Neue";
+}
+
+#PriceDiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#Price{
+    font-family: "Bebas Neue";
+}
+
+#PriceDiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#OfferPrice{
+    font-family: "Bebas Neue";
+
+}
+
+#addToCartButton{
+    font-size: 25px;
+    background-color: black;
+    border: none;
+    color: White;
+    font-family: "Bebas Neue";
+    border-radius: 5px;
+}
+
+#addToCartButton:active{
+    transform: scale(0.95);
+}

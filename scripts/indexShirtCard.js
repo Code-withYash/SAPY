@@ -31,30 +31,29 @@ let shirt =[
 
 
 
-
-shirt.map((el)=>{
+shirt.forEach((el)=>{
     let card = document.createElement("div");
     card.setAttribute("id","card");
     card.style.height = "55vh";
+    card.style.boxShadow = "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px"
     card.addEventListener("click",function(){
-        window.location.hreaf = "../catagory.html"
-    })
-    
+        window.location.href = "./men.html"
+    });
+
     let imgdiv = document.createElement("div");
     imgdiv.setAttribute("id","imgdiv");
     imgdiv.style.height = "80%";
 
-    
     let imageEl = document.createElement("img");
     imageEl.setAttribute("id","imageEl");
     imageEl.style.width = "100%";
     imageEl.style.margin = "auto";
     imageEl.style.height = "100%";
     imageEl.src = el.image;
-    
+
     let compDiv = document.createElement("div");
     compDiv.setAttribute("id","compDiv");
-   
+
 
     let namediv = document.createElement("div");
     namediv.setAttribute("id","namediv");
@@ -62,8 +61,6 @@ shirt.map((el)=>{
     let name = document.createElement("p");
     name.setAttribute("id","name");
     name.innerText = el.name;
-    
-
 
     let div1= document.createElement("div");
     div1.setAttribute("id","div1");
@@ -95,5 +92,8 @@ shirt.map((el)=>{
     compDiv.append(namediv,div1,div2);
 
     card.append(imgdiv,compDiv);
+    // document.querySelector("#card").addEventListener("click",function(){
+    //     window.location.href = "./men.html"
+    // })
     document.querySelector("#shirt").append(card);
-})
+});

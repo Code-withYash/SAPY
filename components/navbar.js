@@ -1,45 +1,17 @@
 const navbar = () => {
     return `
-    <div id="mobile_navbar">
-    <div class="mobile_nav_top">
-      <div class="toggle_mobile_nav">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-      <a href="./"><img src="../images/logo.png" alt="logo"/> </a>
-      <div id="mobile_location">Bangalore</div>
-    </div>
-  </div>
-  <div id="mobile_nav_links">
-    <div>
-    <img
-      src="./images/logo.png"
-      alt="logo"
-    />
-    <p class="close_mobile_nav">X</p>
-    </div>
-      <div><a href="./index.html">HOME</a></div>
-      <div><a href="./category.html">CATEGORIES</a></div>
-      <div><a href="./wishlist.html">WISHLIST</a></div>
-      <div><a href="./about.html">ABOUT</a></div>
-  
-  
-      <div><p id="mobile_signin">Sign in</p></div>
-      <div><p id="mobile_cart">Cart</p></div>
-      <div><p>Blog</p></div>
-  </div>
     <nav>
       <div class="navbar_logo">
         <a href="./"><img
-          src="./images/logo.png"
+          src="./images/SAPY.png"
           alt="logo" 
         /> </a>
-        <p>SAPY</p>
       </div>
       <div class="middle_nav_links">
       <div><a href="./index.html">HOME</a></div>
       <div><a href="./category.html">CATEGORIES</a></div>
-      <div><a href="./wishlist.html">WISHLIST</a></div>
       <div><a href="./about.html">ABOUT</a></div>
+      <div><a href="./payment.html">PAYMENT</a></div>
       </div>
       <div class="right_nav_links">
         <div id="login">
@@ -70,12 +42,8 @@ const navbar = () => {
       <p class="close_login">X</p>
       <div class="login_logo">
         <img
-          src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_75,ar_1,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/curefit-logo-white.svg"
+          src="./images/SAPY.png"
           alt="logo"
-        />
-        <img
-          src="https://cdn-images.cure.fit/www-curefit-com/image/upload/c_fill,w_135,ar_3.55,q_auto:eco,dpr_1.25,f_auto,fl_progressive//image/test/brand-logo/cf-name-white.png"
-          alt="brand"
         />
       </div>
       <div class="login_input">

@@ -55,6 +55,7 @@ html,body{
     grid-template-columns: repeat(4,1fr);
     column-gap: 50px;
     margin-bottom: 5rem;
+    
 }
 
 #card{

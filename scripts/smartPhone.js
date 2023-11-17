@@ -144,54 +144,54 @@ let CartArray = JSON.parse(localStorage.getItem("CartArray")) || [];
 
 smartphone.forEach(function(el){
     let card = document.createElement("div");
-    card.setAttribute("id","smartphoneCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","smartphoneUpperDivCard");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
+    // upperdiv.style.height = "350px";
+    // upperdiv.style.width = "90%";
+    // upperdiv.style.display = "flex";
+    // upperdiv.style.border = "2px solid green";
     let image = document.createElement("img");
-    image.setAttribute("id","smartphoneImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
-    image.style.width = "100%";
-    image.style.overflow = "hidden";
+    // image.style.width = "100%";
+    // image.style.overflow = "hidden";
     upperdiv.append(image);
 
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","smartphoneLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","smartphoneNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","smartphoneName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","smartphonePriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","smartphonePriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","smartphonePrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","smartphonePriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","smartphoneOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 

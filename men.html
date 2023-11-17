@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="./styles/navbar.css">
   <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="./styles/banner.css">
+  <link rel="stylesheet" href="./styles/womanTab.css">
 
 </head>
 
@@ -37,21 +38,25 @@
   </div>
 
 
-  <div id="MenMainDiv" style="width: 100%; border: 2px solid red; display: flex; flex-direction: row;">
-    <div class="tab" style="display: flex; flex-direction: column; width: 30%;">
+  <div id="MenMainDiv">
+    <div class="tab">
+      <h1 id="tabHeadingText">List</h1>
       <button class="tablinks" onclick="openTab(event, 'firstTab')" id="defaultOpen">Shirt</button>
       <button class="tablinks" onclick="openTab(event, 'secondTab')">Pants</button>
       <button class="tablinks" onclick="openTab(event, 'thirdTab')">Shoes</button>
     </div>
 
     <div id="firstTab" class="tabcontent">
-      <div id="CardDivShirt" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">All New Collection Of Shirt</h1>
+      <div id="CardDivShirt" class="carddivtabcont"></div>
     </div>
     <div id="secondTab" class="tabcontent">
-      <div id="CardDivPants" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">All New Collection Of Pants</h1>
+      <div id="CardDivPants" class="carddivtabcont"></div>
     </div>
     <div id="thirdTab" class="tabcontent">
-      <div id="CardDivShoes" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">All New Collection Of Shoes</h1>
+      <div id="CardDivShoes" class="carddivtabcont"></div>
     </div>
   </div>
 

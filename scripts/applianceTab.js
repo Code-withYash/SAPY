@@ -1,120 +1,120 @@
 let earbuds =[
     {
      image:"https://m.media-amazon.com/images/I/51zVOjYRNuL._SX425_.jpg",
-     name:"boAt Nirvana Ion TWS Earbuds with 120 HRS Playback(24hrs/Charge), Crystal Bionic Sound with Dual EQ Modes, Quad Mics ENx™ Technology, Low Latency(60ms), in Ear Detection(Charcoal Black)",
+     name:"boAt Nirvana Ion TWS",
      price:"1799",
      offerPrice:"1499",
     },
     {
         image:"https://m.media-amazon.com/images/I/41CcucpIplL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"Boult Audio Z60 Truly Wireless in Ear Earbuds with 60H Playtime, 4 Mics ENC Clear Calling, 50ms Low Latency Gaming, 13mm Bass Driver, Type-C Fast Charging, IPX5 ear buds TWS Bluetooth 5.3(Powder Blue)",
+        name:"Boult Audio Z60",
         price:"1199",
         offerPrice:"999",
        },
         {
         image:"https://m.media-amazon.com/images/I/31Sx7+mu+vL._SY300_SX300_.jpg",
-        name:"Samsung Galaxy Buds Live Bluetooth Truly Wireless in Ear Earbuds with Mic, Upto 21 Hours Playtime, Mystic Black",
+        name:"Samsung Galaxy Buds",
         price:"4299",
         offerPrice:"3899",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/419Pe9doxrL._AC_UL320_.jpg",
-        name:"OnePlus Buds Z2 Bluetooth Truly Wireless in Ear Earbuds with mic, Active Noise Cancellation, 10 Minutes Flash Charge & Upto 38 Hours Battery (Pearl White)",
+        name:"OnePlus Buds Z2 Bluetooth",
         price:"3999",
         offerPrice:"3699",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/31uQjRuF5LL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"realme Buds T300 Truly Wireless in-Ear Earbuds with 30dB ANC, 360° Spatial Audio Effect, 12.4mm Dynamic Bass Boost Driver with Dolby Atmos Support, Upto 40Hrs Battery and Fast Charging (Stylish Black)",
+        name:"realme Buds T300",
         price:"1999",
         offerPrice:"1799",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/41NVG86uNdL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"realme Buds Air 5 Pro Truly Wireless in-Ear Earbuds with 50dB ANC, realBoost Dual Coaxial Drivers, 360° Spatial Audio Effect, LDAC HD Audio, Upto 40Hrs Battery with Fast Charging (Astral Black)",
+        name:"realme Buds Air 5",
         price:"4999",
         offerPrice:"4699",
        },
         {
         image:"https://m.media-amazon.com/images/I/31OCNOXAAZL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"OPPO Enco Air 2 Pro Bluetooth Truly Wireless in Ear Earbuds with Mic, Fast Charging & Up to 28Hrs - Grey",
+        name:"OPPO Enco Air 2",
         price:"3499",
         offerPrice:"3099",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/31R8vyNVWWL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"JBL Tune 230NC TWS, Active Noise Cancellation Earbuds with Mic, Massive 40 Hrs Playtime with Speed Charge, Adjustable EQ APP, 4Mics for Perfect Calls, Google Fast Pair, Bluetooth 5.2 (Blue)",
+        name:"JBL Tune 230NC TWS",
         price:"3998",
         offerPrice:"3599",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/2110TEYPKnL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"Apple AirPods Pro (2nd Generation) ​​​​​​​",
+        name:"Apple AirPods Pro​​​​​​​",
         price:"18999",
         offerPrice:"17999",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/61Qqg+T8nsL._SX679_.jpg",
-        name:"Samsung Galaxy Buds2 Pro, Bluetooth Truly Wireless in Ear Earbuds with Noise Cancellation (Graphite, with Mic)",
+        name:"Samsung Galaxy Buds2 Pro",
         price:"14990",
         offerPrice:"14000",
        },
         {
         image:"https://m.media-amazon.com/images/I/51SKmu2G9FL._SX355_.jpg",
-        name:"Sony WH-1000XM4 Industry Leading Wireless Noise Cancellation Over-Ear Bluetooth Headphones with Mic,30 Hrs Battery, Multi Point-Black |Instant Bank Discount of INR 2000 on Select Prepaid transactions",
+        name:"Sony WH-1000XM4",
         price:"19987",
         offerPrice:"19500",
        },
         {
         image:"https://m.media-amazon.com/images/I/31eo70r2NWL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"Sony WH-CH520, Wireless On-Ear Bluetooth Headphones with Mic, Upto 50 Hours Playtime, DSEE Upscale, Multipoint Connectivity/Dual Pairing,Voice Assistant App Support for Mobile Phones (Beige)",
+        name:"Sony WH-CH520",
         price:"4990",
         offerPrice:"4490",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/41+0dKVVdvL._SY300_SX300_.jpg",
-        name:"JBL Tune 770NC Wireless Over Ear ANC Headphones with Mic, Upto 70 Hrs Playtime, Speedcharge, Google Fast Pair, Dual Pairing, BT 5.3 LE Audio, Customize on Headphones App (Black)",
+        name:"JBL Tune 770NC",
         price:"5999",
         offerPrice:"5499",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/71UfGaWasNL._SX425_.jpg",
-        name:"Skullcandy Hesh EVO Over Ear True Black.",
+        name:"Skullcandy Hesh",
         price:"6999",
         offerPrice:"6499",
        }, 
        {
         image:"https://m.media-amazon.com/images/I/31rqjDOoKRL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"Sony PlayStation Pulse 3d Gaming Wireless Over Ear Headset/Headphone Black with Mic, Dual noise-cancellation Mic, 3.5mm Jack, Tempest 3D audio, USB Type-C charging, 12H Battery",
+        name:"Sony PlayStation Pulse",
         price:"7499",
         offerPrice:"6999",
        }, {
         image:"https://m.media-amazon.com/images/I/715jcYvT9pL._SX425_.jpg",
-        name:"Boult Audio Anchor Bluetooth Wireless Over Ear Headphones with Mic, Active Noise Cancellation, 30H Playtime, AUX Option, Balanced Audio 40mm Drivers, Voice Assistant Sweatproof Gaming ANC Headphones",
+        name:"Boult Audio Anchor",
         price:"3499",
         offerPrice:"3099",
        },
         {
         image:"https://m.media-amazon.com/images/I/61NnqBU61hL._SX569_.jpg",
-        name:"CrossBeats Roar 2.0 Hybrid ANC Headphones, Bluetooth Wireless Over Ear Headphones 40db Active Noise Cancelling, 85hours Playtime, Fast Charge, Ambient Sound Mode,47mm Driver, Built-in Equalizer Black",
+        name:"CrossBeats Roar 2.0",
         price:"3499",
         offerPrice:"3099",
        },
         {
         image:"https://m.media-amazon.com/images/I/41machJsMZL._SX300_SY300_QL70_FMwebp_.jpg",
-        name:"Sennheiser HD 450SE (ANC) Bluetooth 5.0 Wireless Over Ear Headphone with Mic, Designed in Germany, Alexa Built-in - Active Noise Cancellation, 30h Battery,Fast Charging, Foldable, 2Yr WARRANTY - Black",
+        name:"Sennheiser HD 450SE",
         price:"7499",
         offerPrice:"6999",
        },
         {
         image:"https://m.media-amazon.com/images/I/71ISIssoVFL._SY355_.jpg",
-        name:"boAt Nirvana 751 ANC Hybrid Active Noise Cancelling Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, ASAP Charge, Ambient Sound Mode, Immersive Sound, Carry Pouch(Gunmetal Grey)",
+        name:"boAt Nirvana 751 ANC",
         price:"4399",
         offerPrice:"3899",
        },
         {
         image:"https://m.media-amazon.com/images/I/91-TBsMjOcL._SY450_.jpg",
-        name:"HyperX Cloud Stinger Core Wireless On Ear Headphones with Mic (Black)",
+        name:"HyperX Cloud Stinger Core",
         price:"5290",
         offerPrice:"4890",
        },
@@ -127,54 +127,54 @@ let CartArray = JSON.parse(localStorage.getItem("CartArray")) || [];
 
 earbuds.forEach(function(el){
     let card = document.createElement("div");
-    card.setAttribute("id","earbudsCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","earbudsUpperDivCard");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
+    // upperdiv.style.height = "350px";
+    // upperdiv.style.width = "90%";
+    // upperdiv.style.display = "flex";
+    // upperdiv.style.border = "2px solid green";
     let image = document.createElement("img");
-    image.setAttribute("id","earbudsImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
-    image.style.width = "100%";
-    image.style.overflow = "hidden";
+    // image.style.width = "100%";
+    // image.style.overflow = "hidden";
     upperdiv.append(image);
 
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","earbudsLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","earbudsNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","earbudsName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","earbudsPriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","earbudsPriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","earbudsPrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","earbudsPriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","earbudsOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 
@@ -191,9 +191,7 @@ earbuds.forEach(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartearbuds(el);
-    })
-
-
+    });
 
     card.append(upperdiv,lowerDiv,addtocartBtn);
 
@@ -275,54 +273,54 @@ let camera=[
 
 camera.forEach(function(el){
   let card = document.createElement("div");
-  card.setAttribute("id","cameraCard");
+  card.setAttribute("id","Card");
 
 
   let upperdiv = document.createElement("div");
-  upperdiv.setAttribute("id","cameraUpperDivCard");
-  upperdiv.style.height = "350px";
-  upperdiv.style.width = "90%";
-  upperdiv.style.display = "flex";
-  upperdiv.style.border = "2px solid green";
+  upperdiv.setAttribute("id","UpperDiv");
+  // upperdiv.style.height = "350px";
+  // upperdiv.style.width = "90%";
+  // upperdiv.style.display = "flex";
+  // upperdiv.style.border = "2px solid green";
   let image = document.createElement("img");
-  image.setAttribute("id","cameraImg");
+  image.setAttribute("id","Img");
   image.src = el.image;
-  image.style.width = "100%";
-  image.style.overflow = "hidden";
+  // image.style.width = "100%";
+  // image.style.overflow = "hidden";
   upperdiv.append(image);
 
 
 
   let lowerDiv = document.createElement("div");
-  lowerDiv.setAttribute("id","cameraLowerDiv");
+  lowerDiv.setAttribute("id","LowerDiv");
 
   let nameDiv = document.createElement("div");
-  nameDiv.setAttribute("id","cameraNameDiv");
+  nameDiv.setAttribute("id","NameDiv");
   let name = document.createElement("p");
-  name.setAttribute("id","cameraName");
+  name.setAttribute("id","Name");
   name.innerText = el.name;
   nameDiv.append(name);
 
   let priceDiv = document.createElement("p");
-  priceDiv.setAttribute("id","cameraPriceDiv");
+  priceDiv.setAttribute("id","PriceDiv");
 
   let priceDiv1 = document.createElement("p");
-  priceDiv1.setAttribute("id","cameraPriceDiv1");
+  priceDiv1.setAttribute("id","PriceDiv1");
   let pr = document.createElement("p");
   pr.style.fontFamily = "Bebas Neue";
   pr.innerText = "Price";
   let Price = document.createElement("p");
-  Price.setAttribute("id","cameraPrice");
+  Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
-  priceDiv2.setAttribute("id","cameraPriceDiv2");
+  priceDiv2.setAttribute("id","PriceDiv2");
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
   let offerPrice = document.createElement("p");
-  offerPrice.setAttribute("id","cameraOfferPrice");
+  offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
   priceDiv2.append(offerPr,offerPrice);
 
@@ -482,54 +480,54 @@ let fridge =[
 
 fridge.forEach(function(el){
   let card = document.createElement("div");
-  card.setAttribute("id","fridgeCard");
+  card.setAttribute("id","Card");
 
 
   let upperdiv = document.createElement("div");
-  upperdiv.setAttribute("id","fridgeUpperDivCard");
-  upperdiv.style.height = "350px";
-  upperdiv.style.width = "90%";
-  upperdiv.style.display = "flex";
-  upperdiv.style.border = "2px solid green";
+  upperdiv.setAttribute("id","UpperDiv");
+  // upperdiv.style.height = "350px";
+  // upperdiv.style.width = "90%";
+  // upperdiv.style.display = "flex";
+  // upperdiv.style.border = "2px solid green";
   let image = document.createElement("img");
-  image.setAttribute("id","fridgeImg");
+  image.setAttribute("id","Img");
   image.src = el.image;
-  image.style.width = "100%";
-  image.style.overflow = "hidden";
+  // image.style.width = "100%";
+  // image.style.overflow = "hidden";
   upperdiv.append(image);
 
 
 
   let lowerDiv = document.createElement("div");
-  lowerDiv.setAttribute("id","fridgeLowerDiv");
+  lowerDiv.setAttribute("id","LowerDiv");
 
   let nameDiv = document.createElement("div");
-  nameDiv.setAttribute("id","fridgeNameDiv");
+  nameDiv.setAttribute("id","NameDiv");
   let name = document.createElement("p");
-  name.setAttribute("id","fridgeName");
+  name.setAttribute("id","Name");
   name.innerText = el.name;
   nameDiv.append(name);
 
   let priceDiv = document.createElement("p");
-  priceDiv.setAttribute("id","fridgePriceDiv");
+  priceDiv.setAttribute("id","PriceDiv");
 
   let priceDiv1 = document.createElement("p");
-  priceDiv1.setAttribute("id","fridgePriceDiv1");
+  priceDiv1.setAttribute("id","PriceDiv1");
   let pr = document.createElement("p");
   pr.style.fontFamily = "Bebas Neue";
   pr.innerText = "Price";
   let Price = document.createElement("p");
-  Price.setAttribute("id","fridgePrice");
+  Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
-  priceDiv2.setAttribute("id","fridgePriceDiv2");
+  priceDiv2.setAttribute("id","PriceDiv2");
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
   let offerPrice = document.createElement("p");
-  offerPrice.setAttribute("id","fridgeOfferPrice");
+  offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
   priceDiv2.append(offerPr,offerPrice);
 
@@ -546,7 +544,7 @@ fridge.forEach(function(el){
   addtocartBtn.innerText = "Add To Cart";
   addtocartBtn.addEventListener("click",function(){
     addtocartfridge(el);
-  })
+  });
 
 
 
@@ -690,54 +688,54 @@ let kitchen =[
 
 kitchen.forEach(function(el){
   let card = document.createElement("div");
-  card.setAttribute("id","kitchenCard");
+  card.setAttribute("id","Card");
 
 
   let upperdiv = document.createElement("div");
-  upperdiv.setAttribute("id","kitchenUpperDivCard");
-  upperdiv.style.height = "350px";
-  upperdiv.style.width = "90%";
-  upperdiv.style.display = "flex";
-  upperdiv.style.border = "2px solid green";
+  upperdiv.setAttribute("id","UpperDiv");
+  // upperdiv.style.height = "350px";
+  // upperdiv.style.width = "90%";
+  // upperdiv.style.display = "flex";
+  // upperdiv.style.border = "2px solid green";
   let image = document.createElement("img");
-  image.setAttribute("id","kitchenImg");
+  image.setAttribute("id","Img");
   image.src = el.image;
-  image.style.width = "100%";
-  image.style.overflow = "hidden";
+  // image.style.width = "100%";
+  // image.style.overflow = "hidden";
   upperdiv.append(image);
 
 
 
   let lowerDiv = document.createElement("div");
-  lowerDiv.setAttribute("id","kitchenLowerDiv");
+  lowerDiv.setAttribute("id","LowerDiv");
 
   let nameDiv = document.createElement("div");
-  nameDiv.setAttribute("id","kitchenNameDiv");
+  nameDiv.setAttribute("id","NameDiv");
   let name = document.createElement("p");
-  name.setAttribute("id","kitchenName");
+  name.setAttribute("id","Name");
   name.innerText = el.name;
   nameDiv.append(name);
 
   let priceDiv = document.createElement("p");
-  priceDiv.setAttribute("id","kitchenPriceDiv");
+  priceDiv.setAttribute("id","PriceDiv");
 
   let priceDiv1 = document.createElement("p");
-  priceDiv1.setAttribute("id","kitchenPriceDiv1");
+  priceDiv1.setAttribute("id","PriceDiv1");
   let pr = document.createElement("p");
   pr.style.fontFamily = "Bebas Neue";
   pr.innerText = "Price";
   let Price = document.createElement("p");
-  Price.setAttribute("id","kitchenPrice");
+  Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
-  priceDiv2.setAttribute("id","kitchenPriceDiv2");
+  priceDiv2.setAttribute("id","PriceDiv2");
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
   let offerPrice = document.createElement("p");
-  offerPrice.setAttribute("id","kitchenOfferPrice");
+  offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
   priceDiv2.append(offerPr,offerPrice);
 
@@ -823,8 +821,8 @@ let washingMachine =[
       {
         name: "IFB 7kg Star Top Load",
        image:"https://m.media-amazon.com/images/I/61aEf-fgerL._AC_UY436_QL65_.jpg",
-       price:"",
-       offerPrice:"",
+       price:"50,000",
+       offerPrice:"38,999",
       },
       {
         name: "IFB 6kg Star AI",
@@ -877,8 +875,8 @@ let washingMachine =[
       {
         name: "IFB 6.5kg Top Load",
        image:"https://m.media-amazon.com/images/I/61CH5bFxAlL._AC_UY436_QL65_.jpg",
-       price:"",
-       offerPrice:"",
+       price:"24,500",
+       offerPrice:"18,999",
       },
       {
         name: "Samsung 10kg Star WiFi",
@@ -898,54 +896,54 @@ let washingMachine =[
 
 washingMachine.forEach(function(el){
   let card = document.createElement("div");
-  card.setAttribute("id","washingMachineCard");
+  card.setAttribute("id","Card");
 
 
   let upperdiv = document.createElement("div");
-  upperdiv.setAttribute("id","washingMachineUpperDivCard");
-  upperdiv.style.height = "350px";
-  upperdiv.style.width = "90%";
-  upperdiv.style.display = "flex";
-  upperdiv.style.border = "2px solid green";
+  upperdiv.setAttribute("id","UpperDiv");
+  // upperdiv.style.height = "350px";
+  // upperdiv.style.width = "90%";
+  // upperdiv.style.display = "flex";
+  // upperdiv.style.border = "2px solid green";
   let image = document.createElement("img");
-  image.setAttribute("id","washingMachineImg");
+  image.setAttribute("id","Img");
   image.src = el.image;
-  image.style.width = "100%";
-  image.style.overflow = "hidden";
+  // image.style.width = "100%";
+  // image.style.overflow = "hidden";
   upperdiv.append(image);
 
 
 
   let lowerDiv = document.createElement("div");
-  lowerDiv.setAttribute("id","washingMachineLowerDiv");
+  lowerDiv.setAttribute("id","LowerDiv");
 
   let nameDiv = document.createElement("div");
-  nameDiv.setAttribute("id","washingMachineNameDiv");
+  nameDiv.setAttribute("id","NameDiv");
   let name = document.createElement("p");
-  name.setAttribute("id","washingMachineName");
+  name.setAttribute("id","Name");
   name.innerText = el.name;
   nameDiv.append(name);
 
   let priceDiv = document.createElement("p");
-  priceDiv.setAttribute("id","washingMachinePriceDiv");
+  priceDiv.setAttribute("id","PriceDiv");
 
   let priceDiv1 = document.createElement("p");
-  priceDiv1.setAttribute("id","washingMachinePriceDiv1");
+  priceDiv1.setAttribute("id","PriceDiv1");
   let pr = document.createElement("p");
   pr.style.fontFamily = "Bebas Neue";
   pr.innerText = "Price";
   let Price = document.createElement("p");
-  Price.setAttribute("id","washingMachinePrice");
+  Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
-  priceDiv2.setAttribute("id","washingMachinePriceDiv2");
+  priceDiv2.setAttribute("id","PriceDiv2");
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
   let offerPrice = document.createElement("p");
-  offerPrice.setAttribute("id","washingMachineOfferPrice");
+  offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
   priceDiv2.append(offerPr,offerPrice);
 
@@ -1087,54 +1085,55 @@ let TV =[
 
 TV.forEach(function(el){
   let card = document.createElement("div");
-  card.setAttribute("id","TVCard");
+  card.setAttribute("id","Card");
 
 
   let upperdiv = document.createElement("div");
-  upperdiv.setAttribute("id","TVUpperDivCard");
-  upperdiv.style.height = "350px";
-  upperdiv.style.width = "90%";
+  upperdiv.setAttribute("id","UpperDiv");
+  upperdiv.style.height = "150px";
+  upperdiv.style.width = "100%";
   upperdiv.style.display = "flex";
-  upperdiv.style.border = "2px solid green";
+  // upperdiv.style.border = "2px solid green";
   let image = document.createElement("img");
-  image.setAttribute("id","TVImg");
+  image.setAttribute("id","Img");
   image.src = el.image;
   image.style.width = "100%";
-  image.style.overflow = "hidden";
+  // image.style.overflow = "hidden";
+  image.style.marginBottom = "20px";
   upperdiv.append(image);
 
 
 
   let lowerDiv = document.createElement("div");
-  lowerDiv.setAttribute("id","TVLowerDiv");
+  lowerDiv.setAttribute("id","LowerDiv");
 
   let nameDiv = document.createElement("div");
-  nameDiv.setAttribute("id","TVNameDiv");
+  nameDiv.setAttribute("id","NameDiv");
   let name = document.createElement("p");
-  name.setAttribute("id","TVName");
+  name.setAttribute("id","Name");
   name.innerText = el.name;
   nameDiv.append(name);
 
   let priceDiv = document.createElement("p");
-  priceDiv.setAttribute("id","TVPriceDiv");
+  priceDiv.setAttribute("id","PriceDiv");
 
   let priceDiv1 = document.createElement("p");
-  priceDiv1.setAttribute("id","TVPriceDiv1");
+  priceDiv1.setAttribute("id","PriceDiv1");
   let pr = document.createElement("p");
   pr.style.fontFamily = "Bebas Neue";
   pr.innerText = "Price";
   let Price = document.createElement("p");
-  Price.setAttribute("id","TVPrice");
+  Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
-  priceDiv2.setAttribute("id","TVPriceDiv2");
+  priceDiv2.setAttribute("id","PriceDiv2");
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
   let offerPrice = document.createElement("p");
-  offerPrice.setAttribute("id","TVOfferPrice");
+  offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
   priceDiv2.append(offerPr,offerPrice);
 
@@ -1275,54 +1274,55 @@ offerPrice:"115000",
 
 AC.forEach(function(el){
   let card = document.createElement("div");
-  card.setAttribute("id","ACCard");
+  card.setAttribute("id","Card");
 
 
   let upperdiv = document.createElement("div");
-  upperdiv.setAttribute("id","ACUpperDivCard");
-  upperdiv.style.height = "350px";
-  upperdiv.style.width = "90%";
+  upperdiv.setAttribute("id","UpperDiv");
+  upperdiv.style.height = "100px";
+  upperdiv.style.width = "100%";
   upperdiv.style.display = "flex";
-  upperdiv.style.border = "2px solid green";
+  // upperdiv.style.border = "2px solid green";
   let image = document.createElement("img");
-  image.setAttribute("id","ACImg");
+  image.setAttribute("id","Img");
   image.src = el.image;
   image.style.width = "100%";
-  image.style.overflow = "hidden";
+  image.style.marginBottom = "20px"
+  // image.style.overflow = "hidden";
   upperdiv.append(image);
 
 
 
   let lowerDiv = document.createElement("div");
-  lowerDiv.setAttribute("id","ACLowerDiv");
+  lowerDiv.setAttribute("id","LowerDiv");
 
   let nameDiv = document.createElement("div");
-  nameDiv.setAttribute("id","ACNameDiv");
+  nameDiv.setAttribute("id","NameDiv");
   let name = document.createElement("p");
-  name.setAttribute("id","ACName");
+  name.setAttribute("id","Name");
   name.innerText = el.name;
   nameDiv.append(name);
 
   let priceDiv = document.createElement("p");
-  priceDiv.setAttribute("id","ACPriceDiv");
+  priceDiv.setAttribute("id","PriceDiv");
 
   let priceDiv1 = document.createElement("p");
-  priceDiv1.setAttribute("id","ACPriceDiv1");
+  priceDiv1.setAttribute("id","PriceDiv1");
   let pr = document.createElement("p");
   pr.style.fontFamily = "Bebas Neue";
   pr.innerText = "Price";
   let Price = document.createElement("p");
-  Price.setAttribute("id","ACPrice");
+  Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
-  priceDiv2.setAttribute("id","ACPriceDiv2");
+  priceDiv2.setAttribute("id","PriceDiv2");
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
   let offerPrice = document.createElement("p");
-  offerPrice.setAttribute("id","ACOfferPrice");
+  offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
   priceDiv2.append(offerPr,offerPrice);
 

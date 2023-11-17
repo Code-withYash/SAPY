@@ -37,21 +37,26 @@
   </div>
 
 
-  <div id="WomenMainDiv" style="width: 100%; border: 2px solid red; display: flex; flex-direction: row;">
-    <div class="tab" style="display: flex; flex-direction: column; width: 30%;">
+  <div id="WomenMainDiv">
+    <div class="tab">
+      <h1 id="tabHeadingText">List</h1>
       <button class="tablinks" onclick="openTab(event, 'firstTab')" id="defaultOpen">Saree</button>
       <button class="tablinks" onclick="openTab(event, 'secondTab')">Jeans</button>
       <button class="tablinks" onclick="openTab(event, 'thirdTab')">Skirt</button>
     </div>
 
     <div id="firstTab" class="tabcontent">
-      <div id="CardDivSaree" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">New Collection Of Saree</h1>
+      <div id="CardDivSaree" class="carddivtabcont">
+      </div>
     </div>
     <div id="secondTab" class="tabcontent">
-      <div id="CardDivJeans" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">New Collection Of Jeans</h1>
+      <div id="CardDivJeans" class="carddivtabcont"></div>
     </div>
     <div id="thirdTab" class="tabcontent">
-      <div id="CardDivSkirt" style="display: grid; grid-template-rows: repeat(4,1fr); grid-template-columns: repeat(4,1fr);"></div>
+      <h1 id="tabHeadingText">New Collection Of Skirt</h1>
+      <div id="CardDivSkirt" class="carddivtabcont"></div>
     </div>
   </div>
   <!-- *********************footer starts here**************** -->
