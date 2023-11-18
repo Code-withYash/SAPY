@@ -72,6 +72,7 @@ shirt.forEach((el)=>{
     let price = document.createElement("p");
     price.setAttribute("id","price");
     price.innerText = `₹ ${el.price}`;
+    price.style.textDecoration = "line-through";
 
     let div2= document.createElement("div");
     div2.setAttribute("id","div2");

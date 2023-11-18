@@ -166,6 +166,7 @@ earbuds.forEach(function(el){
     let Price = document.createElement("p");
     Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
+    Price.style.textDecoration = "line-through"
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
@@ -312,6 +313,7 @@ camera.forEach(function(el){
   let Price = document.createElement("p");
   Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
+  Price.style.textDecoration = "line-through"
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
@@ -519,6 +521,7 @@ fridge.forEach(function(el){
   let Price = document.createElement("p");
   Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
+  Price.style.textDecoration = "line-through"
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
@@ -727,6 +730,7 @@ kitchen.forEach(function(el){
   let Price = document.createElement("p");
   Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
+  Price.style.textDecoration = "line-through"
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
@@ -935,6 +939,7 @@ washingMachine.forEach(function(el){
   let Price = document.createElement("p");
   Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
+  Price.style.textDecoration = "line-through"
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
@@ -1125,6 +1130,7 @@ TV.forEach(function(el){
   let Price = document.createElement("p");
   Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
+  Price.style.textDecoration = "line-through"
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
@@ -1314,6 +1320,7 @@ AC.forEach(function(el){
   let Price = document.createElement("p");
   Price.setAttribute("id","Price");
   Price.innerText = `₹ ${el.price}`;
+  Price.style.textDecoration = "line-through";
   priceDiv1.append(pr,Price);
 
   let priceDiv2 = document.createElement("p");
