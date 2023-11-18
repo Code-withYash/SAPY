@@ -11,54 +11,54 @@ document.querySelector("#totalItems>span").innerText = cartItemLS.length;
 function displayItem(res){
   res.forEach(function(el, i){
     let card = document.createElement("div");
-    card.setAttribute("id","skirtCard");
+    card.setAttribute("id","Card");
 
 
     let upperdiv = document.createElement("div");
-    upperdiv.setAttribute("id","skirtUpperDivCard");
-    upperdiv.style.height = "350px";
-    upperdiv.style.width = "90%";
-    upperdiv.style.display = "flex";
-    upperdiv.style.border = "2px solid green";
+    upperdiv.setAttribute("id","UpperDiv");
+    // upperdiv.style.height = "350px";
+    // upperdiv.style.width = "90%";
+    // upperdiv.style.display = "flex";
+    // upperdiv.style.border = "2px solid green";
     let image = document.createElement("img");
-    image.setAttribute("id","skirtImg");
+    image.setAttribute("id","Img");
     image.src = el.image;
-    image.style.width = "100%";
-    image.style.overflow = "hidden";
+    // image.style.width = "100%";
+    // image.style.overflow = "hidden";
     upperdiv.append(image);
 
 
 
     let lowerDiv = document.createElement("div");
-    lowerDiv.setAttribute("id","skirtLowerDiv");
+    lowerDiv.setAttribute("id","LowerDiv");
 
     let nameDiv = document.createElement("div");
-    nameDiv.setAttribute("id","skirtNameDiv");
+    nameDiv.setAttribute("id","NameDiv");
     let name = document.createElement("p");
-    name.setAttribute("id","skirtName");
+    name.setAttribute("id","Name");
     name.innerText = el.name;
     nameDiv.append(name);
 
     let priceDiv = document.createElement("p");
-    priceDiv.setAttribute("id","skirtPriceDiv");
+    priceDiv.setAttribute("id","PriceDiv");
 
     let priceDiv1 = document.createElement("p");
-    priceDiv1.setAttribute("id","skirtPriceDiv1");
+    priceDiv1.setAttribute("id","PriceDiv1");
     let pr = document.createElement("p");
     pr.style.fontFamily = "Bebas Neue";
     pr.innerText = "Price";
     let Price = document.createElement("p");
-    Price.setAttribute("id","skirtPrice");
+    Price.setAttribute("id","Price");
     Price.innerText = `₹ ${el.price}`;
     priceDiv1.append(pr,Price);
 
     let priceDiv2 = document.createElement("p");
-    priceDiv2.setAttribute("id","skirtPriceDiv2");
+    priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
-    offerPrice.setAttribute("id","skirtOfferPrice");
+    offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
     priceDiv2.append(offerPr,offerPrice);
 
@@ -70,6 +70,7 @@ function displayItem(res){
 
     let btn = document.createElement("button");
     btn.innerText = "Remove";
+    btn.setAttribute("id","removeItems")
     btn.addEventListener("click", function(event){
       event.target.parentNode.remove();
     deleteItem(i);
@@ -88,3 +89,7 @@ function deleteItem(i) {
   //  Or You Can Use:-
   // displayItem(cartItemLS);
 };
+
+document.querySelector("#placeOrder").addEventListener("click",function(){
+  window.location.href = "./payment.html"
+})

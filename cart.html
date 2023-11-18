@@ -6,8 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ABOUT</title>
-  <link data-rh="true" rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16"
-        type="image/png" />
+  <link
+      data-rh="true"
+      rel="icon"
+      href="./images/top.png"
+      sizes="16x16"
+      type="image/png"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
@@ -21,6 +26,8 @@
   <link rel="stylesheet" href="/care/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.css" />
   <link rel="stylesheet" href="./styles/navbar.css">
   <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/cart.css">
+  <link rel="stylesheet" href="./styles/smartphoneTab.css">
 
 </head>
 
@@ -30,9 +37,17 @@
   <header id="navbar"></header>
   <div id="overlay"></div>
 
+  <h1 id="yourcartHead">Your Cart</h1>
   <div id="displayItems">
-    <h1 id="totalItems">Total Items: <span></span></h1>
-    <h1 id="totalPrice">Total Price: <span></span></h1>
+    <div id="totalCont">
+      <div>
+        <h1 id="totalItems">Total Items: <span></span></h1>
+        <h1 id="totalPrice">Total Price: <span></span></h1>
+      </div>
+      <div>
+        <button id="placeOrder">Place Order</button>
+      </div>
+    </div>
     <div id="newCont"></div>
   </div>
   <!-- *********************************footer starts here*********************************** -->

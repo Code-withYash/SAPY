@@ -7,7 +7,7 @@
     <link
       data-rh="true"
       rel="icon"
-      href="./images/logo.png"
+      href="./images/top.png"
       sizes="16x16"
       type="image/png"
     />
@@ -18,9 +18,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Noto+Sans+Devanagari:wght@800&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 
 
 
@@ -35,8 +38,10 @@
     <header id="navbar"></header>
     <!-- <div id="overlay"></div> -->
 
-    <div id="banner">
-      <video id="vdo" autoplay muted loop src="./vdo/bannervdo.mp4"></video>
+
+
+    <div id="banner" style="width: 100%; height: 100%; overflow: hidden;">
+      <video id="vdo" style="width: 100%; height: 100%; overflow: hidden;" autoplay muted loop src="./vdo/bannervdo.mp4"></video>
     </div>
 
     
@@ -77,9 +82,6 @@
     <div id="phoneVDOdiv">
       <video id="Phvdo" autoplay loop muted src="./vdo/applevdo.mp4"></video>
     </div>
-
-    
-
 
 
 
@@ -217,15 +219,20 @@
           </div>
       </div>
     </section>
-
-
     <!-- footer section  -->
     <div id="footer"></div>
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    
+    
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
     
     <!-- scripts -->
     <script type="module" src="./script/navFunction.js"></script>

@@ -93,44 +93,44 @@ let smartphone=[
        {
         image:"https://m.media-amazon.com/images/I/91xdNu6S9DL._AC_UY436_QL65_.jpg",
         price:"23999",
-        name:"realme narzo 60 Pro (Mars Orange,12GB+256GB) Ultra Smooth 120 Hz Super Amoled Curved Display | 100 MP OIS Camera        ",
+        name:"realme narzo 60 Pro (Mars Orange,12GB+256GB)",
         offerPrice:"20000",
    
        },
        {
         image:"https://m.media-amazon.com/images/I/71kfHC4ANJL._AC_UY436_QL65_.jpg",
         price:"37500",
-        name:"Samsung Galaxy A54 5G (Awesome Violet, 8GB, 256GB Storage) | 50 MP No Shake Cam (OIS) | IP67 | Gorilla Glass 5 | Voice Focus | Without Charger",
+        name:"Samsung Galaxy A54 5G",
         offerPrice:"35000",
    
        },{
         image:"https://m.media-amazon.com/images/I/61v2S36O42L._AC_UY436_QL65_.jpg",
         price:"78500",
-        name:"TECNO Phantom V Fold 5G Black (12GB RAM,256GB Storage) | The First Full Size Fold | LTPO AMOLED Display | 4nm D9000+ Fast Processor        ",
+        name:"TECNO Phantom V Fold",
         offerPrice:"70000",
    
        },{
         image:"https://m.media-amazon.com/images/I/81fxjeu8fdL._AC_UY436_QL65_.jpg",
         price:"199900",
-        name:"Apple iPhone 15 Pro Max (1 TB) - Blue Titanium        ",
+        name:"Apple iPhone 15 Pro Max",
         offerPrice:"198900",
    
        },{
         image:"https://m.media-amazon.com/images/I/81uNWyk3PaL._AC_UY436_QL65_.jpg",
         price:"33999",
-        name:"HONOR 90 (Emerald Green, 12GB + 512GB) | India's First Eye Risk-Free Display | 200MP Main & 50MP Selfie Camera | Segment First Quad-Curved AMOLED Screen | Without Charger",
+        name:"HONOR 90 (Emerald Green, 12GB + 512GB)",
         offerPrice:"30000",
    
        },{
         image:"https://m.media-amazon.com/images/I/71waR9n2enL._AC_UY436_QL65_.jpg",
         price:"29499",
-        name:"VIVO V27 5G (Magic Blue, 128 GB) (8 GB RAM)        ",
+        name:"VIVO V27 5G",
         offerPrice:"25499",
    
        },{
         image:"https://m.media-amazon.com/images/I/61a2JpcC8SL._AC_UY436_QL65_.jpg",
         price:"49999",
-        name:"(Vanilla Cream, 8GB RAM, 256GB Storage) | External AMOLED Display | 6.9 AMOLED 144Hz Display | 64MP Main Camera | Android 13",
+        name:"Vanilla Cream, 8GB RAM, 256GB Storage",
         offerPrice:"44999",
    
        },
