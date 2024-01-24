@@ -59,9 +59,11 @@ function displayItem(res){
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
+    offerPr.style.color = `red`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);

@@ -194,10 +194,12 @@ shirt.forEach(function(el){
     priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
+    offerPr.style.color = "red";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);
@@ -213,6 +215,7 @@ shirt.forEach(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartshirt(el);
+      alert("Product added to cart !!");
     })
 
 
@@ -423,10 +426,12 @@ shoes.forEach(function(el){
     priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
+    offerPr.style.color = "red";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);
@@ -442,6 +447,7 @@ shoes.forEach(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartshoes(el);
+      alert("Product added to cart !!");
     })
 
 
@@ -573,10 +579,12 @@ pants.map(function(el){
     priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
+    offerPr.style.color = "red";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);
@@ -592,6 +600,7 @@ pants.map(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartpants(el);
+      alert("Product added to cart !!");
     })
 
 

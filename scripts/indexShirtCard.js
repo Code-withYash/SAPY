@@ -35,7 +35,8 @@ shirt.forEach((el)=>{
     let card = document.createElement("div");
     card.setAttribute("id","card");
     card.style.height = "55vh";
-    card.style.boxShadow = "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px"
+    // card.style.boxShadow = "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px"
+    card.style.border = "1px solid rgb(201, 201, 201)";
     card.addEventListener("click",function(){
         window.location.href = "./men.html"
     });
@@ -79,10 +80,12 @@ shirt.forEach((el)=>{
 
     let ofPr = document.createElement("p");
     ofPr.style.fontFamily = "Bebas Neue";
+    ofPr.style.color = "red";
     ofPr.innerText = "Offer Price";
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","offerPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
 
     imgdiv.append(imageEl);
 

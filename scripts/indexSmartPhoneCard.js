@@ -1,28 +1,4 @@
-// let carousel_div = document.querySelector("#carousel");
 
-// function carousel(){
-//     let images = [
-//         `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz7nvBQYguXPmtwleKULR_ZLWrdTrZ5ziqdw&usqp=CAU`,
-//         `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdGagNnhzKI9hoJDmtWyHFlrn-9179AK5rIg&usqp=CAU`,
-//         `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS87Fl55NzYJxmJw_DBA9dQU1GAAv9gC_VCjw&usqp=CAU`,
-//         `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuZk7H9u-64pKuBeslIkYxctYRPCcuONUfg&usqp=CAU`,
-//         `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZldlCOKc7azEI3_aXqnsgm9TVwvVu6gSBvg&usqp=CAU`,
-//     ];
-//     let imgEliment = document.createElement("img");
-//     imgEliment.setAttribute("id","imge1")
-//     imgEliment.src = images[0];
-//     carousel_div.append(imgEliment);
-//     let i=1;
-//     setInterval(function(){
-//         if(i==images.length){
-//             i=0;
-//         }
-//         imgEliment.src = images[i];
-//         carousel_div.append(imgEliment);
-//         i++
-//     },2000);  
-// }
-// carousel()
 
 let smartphone=[
     {
@@ -57,7 +33,8 @@ let smartphone=[
 smartphone.map((el)=>{
     let card = document.createElement("div");
     card.setAttribute("id","card");
-    card.style.boxShadow = "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px"
+    // card.style.boxShadow = "rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px"
+    card.style.border = "1px solid rgb(201, 201, 201)";
     card.addEventListener("click",function(){
         window.location.href = "./phone.html"
     });
@@ -100,10 +77,12 @@ smartphone.map((el)=>{
 
     let ofPr = document.createElement("p");
     ofPr.style.fontFamily = "Bebas Neue";
+    ofPr.style.color = "red";
     ofPr.innerText = "Offer Price";
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","offerPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
 
     imgdiv.append(imageEl);
 

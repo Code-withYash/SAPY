@@ -173,10 +173,12 @@ laptops.forEach(function(el){
     priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
+    offerPr.style.color = "red";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);
@@ -192,6 +194,7 @@ laptops.forEach(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartlaptops(el);
+      alert("Product added to cart !!");
     })
 
 

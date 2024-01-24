@@ -174,9 +174,11 @@ earbuds.forEach(function(el){
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
+    offerPr.style.color = `red`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);
@@ -192,6 +194,7 @@ earbuds.forEach(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartearbuds(el);
+      alert("Product added to cart !!");
     });
 
     card.append(upperdiv,lowerDiv,addtocartBtn);
@@ -321,9 +324,11 @@ camera.forEach(function(el){
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
+  offerPr.style.color = `red`;
   let offerPrice = document.createElement("p");
   offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
+  offerPrice.style.color = `red`;
   priceDiv2.append(offerPr,offerPrice);
 
   priceDiv.append(priceDiv1,priceDiv2);
@@ -339,6 +344,7 @@ camera.forEach(function(el){
   addtocartBtn.innerText = "Add To Cart";
   addtocartBtn.addEventListener("click",function(){
     addtocartcamera(el);
+    alert("Product added to cart !!");
   })
 
 
@@ -529,9 +535,11 @@ fridge.forEach(function(el){
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
+  offerPr.style.color = `red`;
   let offerPrice = document.createElement("p");
   offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
+  offerPrice.style.color = `red`;
   priceDiv2.append(offerPr,offerPrice);
 
   priceDiv.append(priceDiv1,priceDiv2);
@@ -547,6 +555,7 @@ fridge.forEach(function(el){
   addtocartBtn.innerText = "Add To Cart";
   addtocartBtn.addEventListener("click",function(){
     addtocartfridge(el);
+    alert("Product added to cart !!");
   });
 
 
@@ -738,9 +747,11 @@ kitchen.forEach(function(el){
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
+  offerPr.style.color = `red`;
   let offerPrice = document.createElement("p");
   offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
+  offerPrice.style.color = `red`;
   priceDiv2.append(offerPr,offerPrice);
 
   priceDiv.append(priceDiv1,priceDiv2);
@@ -756,6 +767,7 @@ kitchen.forEach(function(el){
   addtocartBtn.innerText = "Add To Cart";
   addtocartBtn.addEventListener("click",function(){
     addtocartkitchen(el);
+    alert("Product added to cart !!");
   })
 
 
@@ -947,9 +959,11 @@ washingMachine.forEach(function(el){
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
+  offerPr.style.color = `red`;
   let offerPrice = document.createElement("p");
   offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
+  offerPrice.style.color = `red`;
   priceDiv2.append(offerPr,offerPrice);
 
   priceDiv.append(priceDiv1,priceDiv2);
@@ -965,6 +979,7 @@ washingMachine.forEach(function(el){
   addtocartBtn.innerText = "Add To Cart";
   addtocartBtn.addEventListener("click",function(){
     addtocartwashingMachine(el);
+    alert("Product added to cart !!");
   })
 
 
@@ -1138,9 +1153,11 @@ TV.forEach(function(el){
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
+  offerPr.style.color = `red`;
   let offerPrice = document.createElement("p");
   offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
+  offerPrice.style.color = `red`;
   priceDiv2.append(offerPr,offerPrice);
 
   priceDiv.append(priceDiv1,priceDiv2);
@@ -1156,6 +1173,7 @@ TV.forEach(function(el){
   addtocartBtn.innerText = "Add To Cart";
   addtocartBtn.addEventListener("click",function(){
     addtocartTV(el);
+    alert("Product added to cart !!");
   })
 
 
@@ -1328,9 +1346,11 @@ AC.forEach(function(el){
   let offerPr = document.createElement("p");
   offerPr.style.fontFamily = "Bebas Neue";
   offerPr.innerText = `Offer Price`;
+  offerPr.style.color = `red`;
   let offerPrice = document.createElement("p");
   offerPrice.setAttribute("id","OfferPrice");
   offerPrice.innerText = `₹ ${el.offerPrice}`;
+  offerPrice.style.color = `red`;
   priceDiv2.append(offerPr,offerPrice);
 
   priceDiv.append(priceDiv1,priceDiv2);
@@ -1346,6 +1366,7 @@ AC.forEach(function(el){
   addtocartBtn.innerText = "Add To Cart";
   addtocartBtn.addEventListener("click",function(){
     addtocartAC(el);
+    alert("Product added to cart !!");
   })
 
 

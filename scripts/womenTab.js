@@ -168,9 +168,11 @@ skirt.forEach(function(el){
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
+    offerPr.style.color = `red`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);
@@ -186,6 +188,7 @@ skirt.forEach(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartskirt(el);
+      alert("Product added to cart");
     })
 
 
@@ -363,9 +366,11 @@ saree.forEach(function(el){
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
     offerPr.innerText = `Offer Price`;
+    offerPr.style.color = `red`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);
@@ -381,6 +386,7 @@ saree.forEach(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartsaree(el);
+      alert("Product added to cart");
     })
 
 
@@ -573,10 +579,12 @@ jeans.forEach(function(el){
     priceDiv2.setAttribute("id","PriceDiv2");
     let offerPr = document.createElement("p");
     offerPr.style.fontFamily = "Bebas Neue";
+    offerPr.style.color = "red";
     offerPr.innerText = `Offer Price`;
     let offerPrice = document.createElement("p");
     offerPrice.setAttribute("id","OfferPrice");
     offerPrice.innerText = `₹ ${el.offerPrice}`;
+    offerPrice.style.color = `red`;
     priceDiv2.append(offerPr,offerPrice);
 
     priceDiv.append(priceDiv1,priceDiv2);
@@ -592,6 +600,7 @@ jeans.forEach(function(el){
     addtocartBtn.innerText = "Add To Cart";
     addtocartBtn.addEventListener("click",function(){
       addtocartjeans(el);
+      alert("Product added to cart !!");
     })
 
 
